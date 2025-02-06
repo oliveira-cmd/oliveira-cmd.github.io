@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Currículo Virtual</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./scripts/index.js" defer></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Gabriel Oliveira</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experiencia">Experiência</a></li>
+                <li class="nav-item"><a class="nav-link" href="#cursos">Cursos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<header class="text-center mt-5 pt-5" id="header">
+    <img src="./img/image_perfil.jpeg" alt="Foto de Perfil" class="profile-img mb-3">
+    <h1>Gabriel William de Oliveira</h1>
+    <p>Desenvolvedor Backend Junior || PHP, Laravel, JavaScript, Node</p>
+</header>
+
+<section id="sobre" class="container py-5">
+    <h2>Sobre Mim</h2>
+    <p>Profissional com 2 anos e meio de experiência em desenvolvimento back-end, especializado em PHP, Laravel, Node.js e MySQL. Experiência com Git, Docker e AWS.</p>
+</section>
+
+<section id="projetos" class="py-5">
+    <div class="container">
+        <h2>Projetos</h2>
+        <div class="row" id="projetosContainer">Carregando projetos...</div>
+    </div>
+</section>
+
+<section id="experiencia" class="container py-5">
+    <h2>Experiência</h2>
+    <div class="accordion" id="expAccordion">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exp1">
+                    Desenvolvedor Backend - Codebit (11/2023 - 05/2024)
+                </button>
+            </h2>
+            <div id="exp1" class="accordion-collapse collapse" data-bs-parent="#expAccordion">
+                <div class="accordion-body">
+                    <li>Desenvolvimento e manutenção de APIs escaláveis utilizando Node.js e Laravel.</li>
+                    <li>Implementação de melhorias em arquitetura de software para otimizar desempenho.</li>
+                    <li>Colaboração em times ágeis utilizando GitHub e metodologias ágeis.</li>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exp2">
+                    Desenvolvedor Backend - Irroba E-commerce (08/2021 - 02/2023)
+                </button>
+            </h2>
+            <div id="exp2" class="accordion-collapse collapse" data-bs-parent="#expAccordion">
+                <div class="accordion-body">
+                    <li>Desenvolvimento de novos recursos e integração de APIs para plataformas de e-commerce.</li>
+                    <li>Otimização de queries MySQL e refatoração de código legado.</li>
+                    <li>Implementação de boas práticas de segurança e escalabilidade em aplicações PHP/Laravel.</li>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exp3">
+                    Suporte Tecnico - Irroba E-commerce (08/2021 - 02/2023)
+                </button>
+            </h2>
+            <div id="exp3" class="accordion-collapse collapse" data-bs-parent="#expAccordion">
+                <div class="accordion-body">
+                    <li>Atendimento técnico para resolução de problemas de clientes em sistemas de ecommerce.</li>
+                    <li>Diagnóstico e correção de bugs, garantindo suporte ágil e eficiente.</li>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="cursos" class="py-5">
+    <div class="container">
+        <h2>Cursos</h2>
+        <ul class="list-group">
+            <li class="list-group-item">Excel Avançado - Ong FrancaViva (2016)</li>
+            <li class="list-group-item">Gestão de Pessoas - Instituto Faustino (2021)</li>
+            <li class="list-group-item">Análise e Desenvolvimento de Sistemas (2020/2023)</li>
+        </ul>
+    </div>
+</section>
+
+<section id="contato" class="container py-5">
+    <h2>Contato</h2>
+    <p><strong>Email:</strong> oliveira.gabrielwilliam@gmail.com</p>
+    <p><strong>Whatsapp:</strong> (16) 99371-8904 <a href="https://wa.me/5516993718904?text=Tenho uma vaga em aberto que se encaixa no seu perfil">Fale Comigo</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/gabriel-oliveira-cmd/" target="_blank">Perfil</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/oliveira-cmd?tab=repositories" target="_blank">Repositórios</a></p>
+</section>
+
+<footer class="text-center py-3" id="footer">
+    <p>&copy; 2025 Gabriel William de Oliveira - Todos os direitos reservados.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./scripts/index.js"></script>
+</body>
+</html>
